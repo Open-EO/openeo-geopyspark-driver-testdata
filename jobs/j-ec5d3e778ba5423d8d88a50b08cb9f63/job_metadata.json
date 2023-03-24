@@ -1,0 +1,262 @@
+{
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.073,
+          51.212
+        ],
+        [
+          5.073,
+          51.22
+        ],
+        [
+          5.083,
+          51.22
+        ],
+        [
+          5.083,
+          51.212
+        ],
+        [
+          5.073,
+          51.212
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    5.073,
+    51.212,
+    5.083,
+    51.22
+  ],
+  "area": {
+    "value": 621867.5296812057,
+    "unit": "square meter"
+  },
+  "start_datetime": "2022-09-05T00:00:00Z",
+  "end_datetime": "2022-09-20T00:00:00Z",
+  "links": [
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2A_20220907T105041_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2A_20220907T105041_31UFS_TOC_V210"
+    },
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220912T104629_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220912T104629_31UFS_TOC_V210"
+    },
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220919T103639_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220919T103639_31UFS_TOC_V210"
+    }
+  ],
+  "assets": {
+    "openEO_2022-09-12Z.tif": {
+      "href": "/data/projects/OpenEO/j-ec5d3e778ba5423d8d88a50b08cb9f63/openEO_2022-09-12Z.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "bands": [
+        {
+          "name": "B02",
+          "common_name": "blue",
+          "wavelength_um": 0.4966,
+          "aliases": [
+            "TOC-B02_10M"
+          ],
+          "gsd": null
+        },
+        {
+          "name": "B03",
+          "common_name": "green",
+          "wavelength_um": 0.56,
+          "aliases": [
+            "TOC-B03_10M"
+          ],
+          "gsd": null
+        }
+      ],
+      "nodata": 32767,
+      "datetime": "2022-09-12T00:00:00Z",
+      "bbox": [
+        5.072556516108483,
+        51.21179901107717,
+        5.083373923872253,
+        51.2202518955176
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.072556516108483,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.21179901107717
+            ]
+          ]
+        ]
+      }
+    },
+    "openEO_2022-09-19Z.tif": {
+      "href": "/data/projects/OpenEO/j-ec5d3e778ba5423d8d88a50b08cb9f63/openEO_2022-09-19Z.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "bands": [
+        {
+          "name": "B02",
+          "common_name": "blue",
+          "wavelength_um": 0.4966,
+          "aliases": [
+            "TOC-B02_10M"
+          ],
+          "gsd": null
+        },
+        {
+          "name": "B03",
+          "common_name": "green",
+          "wavelength_um": 0.56,
+          "aliases": [
+            "TOC-B03_10M"
+          ],
+          "gsd": null
+        }
+      ],
+      "nodata": 32767,
+      "datetime": "2022-09-19T00:00:00Z",
+      "bbox": [
+        5.072556516108483,
+        51.21179901107717,
+        5.083373923872253,
+        51.2202518955176
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.072556516108483,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.21179901107717
+            ]
+          ]
+        ]
+      }
+    },
+    "openEO_2022-09-07Z.tif": {
+      "href": "/data/projects/OpenEO/j-ec5d3e778ba5423d8d88a50b08cb9f63/openEO_2022-09-07Z.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "bands": [
+        {
+          "name": "B02",
+          "common_name": "blue",
+          "wavelength_um": 0.4966,
+          "aliases": [
+            "TOC-B02_10M"
+          ],
+          "gsd": null
+        },
+        {
+          "name": "B03",
+          "common_name": "green",
+          "wavelength_um": 0.56,
+          "aliases": [
+            "TOC-B03_10M"
+          ],
+          "gsd": null
+        }
+      ],
+      "nodata": 32767,
+      "datetime": "2022-09-07T00:00:00Z",
+      "bbox": [
+        5.072556516108483,
+        51.21179901107717,
+        5.083373923872253,
+        51.2202518955176
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.072556516108483,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.2202518955176
+            ],
+            [
+              5.083373923872253,
+              51.21179901107717
+            ],
+            [
+              5.072556516108483,
+              51.21179901107717
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "epsg": 32631,
+  "instruments": [
+    "MSI"
+  ],
+  "processing:facility": "VITO - SPARK",
+  "processing:software": "openeo-geotrellis-0.9.4a1",
+  "unique_process_ids": [
+    "load_collection",
+    "save_result"
+  ],
+  "usage": {
+    "input_pixel": {
+      "value": 0.09375,
+      "unit": "mega-pixel"
+    }
+  }
+}

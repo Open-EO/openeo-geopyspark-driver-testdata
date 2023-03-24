@@ -1,0 +1,146 @@
+{
+  "assets": {
+    "openEO_2022-09-07Z.tif": {
+      "eo:bands": [
+        {
+          "center_wavelength": 0.4966,
+          "name": "B02"
+        },
+        {
+          "center_wavelength": 0.56,
+          "name": "B03"
+        }
+      ],
+      "file:nodata": [
+        32767
+      ],
+      "file:size": 18878,
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/assets/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/4f1b6ee1d9f054b44af32a47334e35a5/openEO_2022-09-07Z.tif?expires=1680252417",
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2022-09-07Z.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+    "openEO_2022-09-12Z.tif": {
+      "eo:bands": [
+        {
+          "center_wavelength": 0.4966,
+          "name": "B02"
+        },
+        {
+          "center_wavelength": 0.56,
+          "name": "B03"
+        }
+      ],
+      "file:nodata": [
+        32767
+      ],
+      "file:size": 20521,
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/assets/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/869dce0f526cf388263ca33f22ce7c7d/openEO_2022-09-12Z.tif?expires=1680252417",
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2022-09-12Z.tif",
+      "type": "image/tiff; application=geotiff"
+    },
+    "openEO_2022-09-19Z.tif": {
+      "eo:bands": [
+        {
+          "center_wavelength": 0.4966,
+          "name": "B02"
+        },
+        {
+          "center_wavelength": 0.56,
+          "name": "B03"
+        }
+      ],
+      "file:nodata": [
+        32767
+      ],
+      "file:size": 21286,
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/assets/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/58048142cd9a29eeff5081b573bca3b2/openEO_2022-09-19Z.tif?expires=1680252417",
+      "roles": [
+        "data"
+      ],
+      "title": "openEO_2022-09-19Z.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "description": "Results for batch job j-ec5d3e778ba5423d8d88a50b08cb9f63",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.073,
+          51.212,
+          5.083,
+          51.22
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-09-05T00:00:00Z",
+          "2022-09-20T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "id": "j-ec5d3e778ba5423d8d88a50b08cb9f63",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2A_20220907T105041_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2A_20220907T105041_31UFS_TOC_V210"
+    },
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220912T104629_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220912T104629_31UFS_TOC_V210"
+    },
+    {
+      "href": "urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220919T103639_31UFS_TOC_V210",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:TERRASCOPE_S2_TOC_V2:S2B_20220919T103639_31UFS_TOC_V210"
+    },
+    {
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/a2d02d6ce74d60bdecffd1f418e1392a?expires=1680252417",
+      "rel": "canonical",
+      "type": "application/json"
+    },
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/items/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/869dce0f526cf388263ca33f22ce7c7d/openEO_2022-09-12Z.tif?expires=1680252417",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/items/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/58048142cd9a29eeff5081b573bca3b2/openEO_2022-09-19Z.tif?expires=1680252417",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://openeo.vito.be/openeo/1.1/jobs/j-ec5d3e778ba5423d8d88a50b08cb9f63/results/items/MGFlZTI0ZjZhYWYzNWY0OWZkZTUzMjY2NWFlYTc3Yjk1NWI2ZjQ4NGNhYWExNDA0NzM1MTExYWU0Y2RmNGY5N0BlZ2kuZXU%3D/4f1b6ee1d9f054b44af32a47334e35a5/openEO_2022-09-07Z.tif?expires=1680252417",
+      "rel": "item",
+      "type": "application/geo+json"
+    }
+  ],
+  "stac_extensions": [
+    "eo",
+    "file"
+  ],
+  "stac_version": "1.0.0",
+  "type": "Collection"
+}
