@@ -1,0 +1,158 @@
+<PAMDataset>
+  <Subdataset name="B02">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">1428</MDI>
+          <MDI key="STATISTICS_MEAN">756.328125</MDI>
+          <MDI key="STATISTICS_MINIMUM">386</MDI>
+          <MDI key="STATISTICS_STDDEV">225.81740789626</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B03">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">1688</MDI>
+          <MDI key="STATISTICS_MEAN">1056.78125</MDI>
+          <MDI key="STATISTICS_MINIMUM">626</MDI>
+          <MDI key="STATISTICS_STDDEV">243.15549093828</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B04">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">2316</MDI>
+          <MDI key="STATISTICS_MEAN">1246.2109375</MDI>
+          <MDI key="STATISTICS_MINIMUM">552</MDI>
+          <MDI key="STATISTICS_STDDEV">423.71632706077</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B05">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">2764</MDI>
+          <MDI key="STATISTICS_MEAN">1766.90625</MDI>
+          <MDI key="STATISTICS_MINIMUM">1139</MDI>
+          <MDI key="STATISTICS_STDDEV">327.15168589805</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B06">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">4404</MDI>
+          <MDI key="STATISTICS_MEAN">2556.3203125</MDI>
+          <MDI key="STATISTICS_MINIMUM">1795</MDI>
+          <MDI key="STATISTICS_STDDEV">509.94818875294</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B07">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5275</MDI>
+          <MDI key="STATISTICS_MEAN">2861.078125</MDI>
+          <MDI key="STATISTICS_MINIMUM">1972</MDI>
+          <MDI key="STATISTICS_STDDEV">615.63793906929</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B08">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5288</MDI>
+          <MDI key="STATISTICS_MEAN">2854.46875</MDI>
+          <MDI key="STATISTICS_MINIMUM">1946</MDI>
+          <MDI key="STATISTICS_STDDEV">611.24008092029</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B11">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5513</MDI>
+          <MDI key="STATISTICS_MEAN">3534.0625</MDI>
+          <MDI key="STATISTICS_MINIMUM">1886</MDI>
+          <MDI key="STATISTICS_STDDEV">770.9402918474</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="B12">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5038</MDI>
+          <MDI key="STATISTICS_MEAN">2774.8046875</MDI>
+          <MDI key="STATISTICS_MINIMUM">1193</MDI>
+          <MDI key="STATISTICS_STDDEV">933.56207997408</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="temperature_mean">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">29843</MDI>
+          <MDI key="STATISTICS_MEAN">29267.426356589</MDI>
+          <MDI key="STATISTICS_MINIMUM">26392</MDI>
+          <MDI key="STATISTICS_STDDEV">487.69110784355</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="VH">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">4320</MDI>
+          <MDI key="STATISTICS_MEAN">1893.5153846154</MDI>
+          <MDI key="STATISTICS_MINIMUM">320</MDI>
+          <MDI key="STATISTICS_STDDEV">772.55081221601</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="VV">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">9774</MDI>
+          <MDI key="STATISTICS_MEAN">4663.9846153846</MDI>
+          <MDI key="STATISTICS_MINIMUM">1831</MDI>
+          <MDI key="STATISTICS_STDDEV">1595.5108754281</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="DEM">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">1199</MDI>
+          <MDI key="STATISTICS_MEAN">1124.3333333333</MDI>
+          <MDI key="STATISTICS_MINIMUM">1063</MDI>
+          <MDI key="STATISTICS_STDDEV">56.316565551848</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
