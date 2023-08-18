@@ -65,62 +65,55 @@
     <metadataObject ID="processing" classification="PROVENANCE" category="PDI">
       <metadataWrap mimeType="text/xml" vocabularyName="SAFE" textInfo="Processing">
         <xmlData>
-          <safe:processing name="COG Conversion" start="2023-05-31T19:46:16.301775" stop="2023-05-31T19:50:58.639429">
-            <safe:facility country="Poland" name="Copernicus Data Space Ecosystem" organisation="CloudFerro" site="Copernicus Data Space Ecosystem-CloudFerro">
-              <safe:software name="Sentinel-1 COGifier" version="001.00"/>
+          <safe:processing name="GRD Post Processing" start="2020-07-29T19:52:26.462915" stop="2020-07-29T20:03:49.000000">
+            <safe:facility country="Germany" name="Copernicus S1 Core Ground Segment - DPA" organisation="ESA" site="DLR-Oberpfaffenhofen">
+              <safe:software name="Sentinel-1 IPF" version="003.31"/>
             </safe:facility>
-            <safe:resource name="S1B_IW_GRDH_1SDV_20200729T172345_20200729T172410_022689_02B10A_E12B.zip.SAFE" role="Level-1 GRD Product">
-              <safe:processing name="GRD Post Processing" start="2020-07-29T19:52:26.462915" stop="2020-07-29T20:03:49.000000">
-                <safe:facility country="Germany" name="Copernicus S1 Core Ground Segment - DPA" organisation="ESA" site="DLR-Oberpfaffenhofen">
-                  <safe:software name="Sentinel-1 IPF" version="003.31"/>
-                </safe:facility>
-                <safe:resource name="S1B_IW_SL1__1_DV_20200729T172342_20200729T172415_022689_02B10A_30C0.SAFE" role="Level-1 Intermediate SLC Product">
-                  <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="SLC Processing" start="2020-07-29T19:54:33.000000" stop="2020-07-29T20:00:05.000000">
-                    <facility country="Germany" name="Copernicus S1 Core Ground Segment - DPA" organisation="ESA" site="DLR-Oberpfaffenhofen">
-                      <software name="Sentinel-1 IPF" version="003.31"/>
+            <safe:resource name="S1B_IW_SL1__1_DV_20200729T172342_20200729T172415_022689_02B10A_30C0.SAFE" role="Level-1 Intermediate SLC Product">
+              <processing name="SLC Processing" start="2020-07-29T19:54:33.000000" stop="2020-07-29T20:00:05.000000" xmlns="http://www.esa.int/safe/sentinel-1.0">
+                <facility country="Germany" name="Copernicus S1 Core Ground Segment - DPA" organisation="ESA" site="DLR-Oberpfaffenhofen">
+                  <software name="Sentinel-1 IPF" version="003.31"/>
+                </facility>
+                <resource name="/data/localWD/649495467/S1B_AUX_PP1_V20160422T000000_G20200512T124627.SAFE" role="AUX_PP1"/>
+                <resource name="/data/localWD/649495467/S1B_AUX_CAL_V20160422T000000_G20200512T124236.SAFE" role="AUX_CAL"/>
+                <resource name="/data/localWD/649495467/S1B_AUX_INS_V20160422T000000_G20190130T102942.SAFE" role="AUX_INS"/>
+                <resource name="/data/localWD/649495467/S1B_OPER_AUX_RESORB_OPOD_20200729T193444_V20200729T153140_20200729T184910.EOF" role="AUX_RES"/>
+                <resource name="/data/localWD/649495467/S1B_IW_RAW__0SDV_20200729T172341_20200729T172414_022689_02B10A_AFC6.SAFE" role="Level-0 Product">
+                  <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 L0 SAR Product, dual polarisation" start="2020-07-29T18:35:16.652676" stop="2020-07-29T18:35:16.757675">
+                    <facility country="Germany" name="DPA_" organisation="ESA" site="DLR-Oberpfaffenhofen">
+                      <software name="" version=""/>
                     </facility>
-                    <resource name="/data/localWD/649495467/S1B_AUX_PP1_V20160422T000000_G20200512T124627.SAFE" role="AUX_PP1"/>
-                    <resource name="/data/localWD/649495467/S1B_AUX_CAL_V20160422T000000_G20200512T124236.SAFE" role="AUX_CAL"/>
-                    <resource name="/data/localWD/649495467/S1B_AUX_INS_V20160422T000000_G20190130T102942.SAFE" role="AUX_INS"/>
-                    <resource name="/data/localWD/649495467/S1B_OPER_AUX_RESORB_OPOD_20200729T193444_V20200729T153140_20200729T184910.EOF" role="AUX_RES"/>
-                    <resource name="/data/localWD/649495467/S1B_IW_RAW__0SDV_20200729T172341_20200729T172414_022689_02B10A_AFC6.SAFE" role="Level-0 Product">
-                      <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 L0 SAR Product, dual polarisation" start="2020-07-29T18:35:16.652676" stop="2020-07-29T18:35:16.757675">
-                        <facility country="Germany" name="DPA_" organisation="ESA" site="DLR-Oberpfaffenhofen">
-                          <software name="" version=""/>
-                        </facility>
-                        <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document"/>
-                        <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" role="Applicable Document" version="13.0"/>
-                        <resource name="Unknown" role="Raw Data">
-                          <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 SAR Slice L0 product single polarisation" start="2020-07-29T18:33:00.306998" stop="2020-07-29T18:33:01.084002">
-                            <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document">
+                    <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document"/>
+                    <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" role="Applicable Document" version="13.0"/>
+                    <resource name="Unknown" role="Raw Data">
+                      <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 SAR Slice L0 product single polarisation" start="2020-07-29T18:33:00.306998" stop="2020-07-29T18:33:01.084002">
+                        <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document">
                            </resource>
-                            <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" version="13.0" role="Applicable Document">
+                        <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" version="13.0" role="Applicable Document">
                            </resource>
-                            <resource name="Downlinked Stream" role="Raw Data">
-                              <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Raw Data Downlink Channel1 1" start="2020-07-29T17:47:55.995639" stop="2020-07-29T17:53:30.302329">
+                        <resource name="Downlinked Stream" role="Raw Data">
+                          <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Raw Data Downlink Channel1 1" start="2020-07-29T17:47:55.995639" stop="2020-07-29T17:53:30.302329">
                               </processing>
-                            </resource>
-                          </processing>
-                        </resource>
-                        <resource name="Unknown" role="Raw Data">
-                          <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 SAR Slice L0 product single polarisation" start="2020-07-29T18:34:55.309554" stop="2020-07-29T18:34:56.182328">
-                            <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document">
-                           </resource>
-                            <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" version="13.0" role="Applicable Document">
-                           </resource>
-                            <resource name="Downlinked Stream" role="Raw Data">
-                              <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Raw Data Downlink Channel2 2" start="2020-07-29T17:45:48.086135" stop="2020-07-29T17:50:31.869326">
-                              </processing>
-                            </resource>
-                          </processing>
                         </resource>
                       </processing>
                     </resource>
-                    <resource name="Sentinel-1 Product Definition (S1-RS-MDA-52-7440) release 2/7" role="product definition"/>
-                    <resource name="Sentinel-1 Product Specification (S1-RS-MDA-52-7441) release 3/7" role="product specification"/>
+                    <resource name="Unknown" role="Raw Data">
+                      <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Generation of Sentinel-1 SAR Slice L0 product single polarisation" start="2020-07-29T18:34:55.309554" stop="2020-07-29T18:34:56.182328">
+                        <resource name="S-1 Core PDGS S-1 Level-0 Product Format Specifications S1PD.SP.00110.ASTR" role="Applicable Document">
+                           </resource>
+                        <resource name="Sentinel-1 SAR Space Packet Protocol Data Unit S1-IF-ASD-PL-0007" version="13.0" role="Applicable Document">
+                           </resource>
+                        <resource name="Downlinked Stream" role="Raw Data">
+                          <processing xmlns="http://www.esa.int/safe/sentinel-1.0" name="Raw Data Downlink Channel2 2" start="2020-07-29T17:45:48.086135" stop="2020-07-29T17:50:31.869326">
+                              </processing>
+                        </resource>
+                      </processing>
+                    </resource>
                   </processing>
-                </safe:resource>
-              </safe:processing>
+                </resource>
+                <resource name="Sentinel-1 Product Definition (S1-RS-MDA-52-7440) release 2/7" role="product definition"/>
+                <resource name="Sentinel-1 Product Specification (S1-RS-MDA-52-7441) release 3/7" role="product specification"/>
+              </processing>
             </safe:resource>
           </safe:processing>
         </xmlData>
@@ -244,37 +237,37 @@
   <dataObjectSection>
     <dataObject ID="products1biwgrdvh20200729t17234520200729t17241002268902b10a002" repID="s1Level1ProductSchema">
       <byteStream mimeType="text/xml" size="1720003">
-        <fileLocation locatorType="URL" href="./annotation/s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002.xml"/>
         <checksum checksumName="MD5">c9b778ade46d356c32c9159ed17cb4d0</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="noises1biwgrdvh20200729t17234520200729t17241002268902b10a002" repID="s1Level1NoiseSchema">
       <byteStream mimeType="text/xml" size="430241">
-        <fileLocation locatorType="URL" href="./annotation/calibration/noise-s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/calibration/noise-s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002.xml"/>
         <checksum checksumName="MD5">8382b7a6fd5b57a4ec982f0a99050dca</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="calibrations1biwgrdvh20200729t17234520200729t17241002268902b10a002" repID="s1Level1CalibrationSchema">
       <byteStream mimeType="text/xml" size="1027363">
-        <fileLocation locatorType="URL" href="./annotation/calibration/calibration-s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/calibration/calibration-s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002.xml"/>
         <checksum checksumName="MD5">71841ff6a81312f82099590b6430fc54</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="products1biwgrdvv20200729t17234520200729t17241002268902b10a001" repID="s1Level1ProductSchema">
       <byteStream mimeType="text/xml" size="1728381">
-        <fileLocation locatorType="URL" href="./annotation/s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001.xml"/>
         <checksum checksumName="MD5">46655615927aa90197fadca00dc724fa</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="noises1biwgrdvv20200729t17234520200729t17241002268902b10a001" repID="s1Level1NoiseSchema">
       <byteStream mimeType="text/xml" size="430241">
-        <fileLocation locatorType="URL" href="./annotation/calibration/noise-s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/calibration/noise-s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001.xml"/>
         <checksum checksumName="MD5">e99c3c0eb2d07e9170518e005992de8f</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="calibrations1biwgrdvv20200729t17234520200729t17241002268902b10a001" repID="s1Level1CalibrationSchema">
       <byteStream mimeType="text/xml" size="1027363">
-        <fileLocation locatorType="URL" href="./annotation/calibration/calibration-s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001-cog.xml"/>
+        <fileLocation locatorType="URL" href="./annotation/calibration/calibration-s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001.xml"/>
         <checksum checksumName="MD5">6c12d6177b999ae43fa7eb9c263d08b2</checksum>
       </byteStream>
     </dataObject>
@@ -284,28 +277,16 @@
         <checksum checksumName="MD5">19e56eece8f60c48d57e3e2ecfd16ebe</checksum>
       </byteStream>
     </dataObject>
-    <dataObject ID="productpreview" repID="s1Level1ProductPreviewSchema">
-      <byteStream mimeType="text/xml" size="3196">
-        <fileLocation locatorType="URL" href="./preview/product-preview.html"/>
-        <checksum checksumName="MD5">d2cd3f8cc7df16e013bc689f2f4f0d27</checksum>
-      </byteStream>
-    </dataObject>
     <dataObject ID="s1biwgrdvh20200729t17234520200729t17241002268902b10a002" repID="s1Level1MeasurementSchema">
-      <byteStream mimeType="application/octet-stream" size="570199494">
-        <fileLocation locatorType="URL" href="./measurement/s1b-iw-grd-vh-20200729t172345-20200729t172410-022689-02b10a-002-cog.tiff"/>
-        <checksum checksumName="MD5">10055d4a3a515228faaf54a3e3d69de1</checksum>
+      <byteStream mimeType="application/octet-stream" size="873625672">
+        <fileLocation locatorType="URL" href="./measurement/laroche_vh.tiff"/>
+        <checksum checksumName="MD5">c56c200c0070a23925a97ac113ff7157</checksum>
       </byteStream>
     </dataObject>
     <dataObject ID="s1biwgrdvv20200729t17234520200729t17241002268902b10a001" repID="s1Level1MeasurementSchema">
-      <byteStream mimeType="application/octet-stream" size="649624459">
-        <fileLocation locatorType="URL" href="./measurement/s1b-iw-grd-vv-20200729t172345-20200729t172410-022689-02b10a-001-cog.tiff"/>
-        <checksum checksumName="MD5">96a11d666eb7ba1e64ed9c9ce8af2cbe</checksum>
-      </byteStream>
-    </dataObject>
-    <dataObject ID="quicklook" repID="s1Level1QuickLookSchema">
-      <byteStream mimeType="application/octet-stream" size="355016">
-        <fileLocation locatorType="URL" href="./preview/quick-look.png"/>
-        <checksum checksumName="MD5">b3147714f3d17052c4a3876800c600ac</checksum>
+      <byteStream mimeType="application/octet-stream" size="873625672">
+        <fileLocation locatorType="URL" href="./measurement/laroche_vv.tiff"/>
+        <checksum checksumName="MD5">607f2c43a2eda87149573bc1b0549f65</checksum>
       </byteStream>
     </dataObject>
   </dataObjectSection>
