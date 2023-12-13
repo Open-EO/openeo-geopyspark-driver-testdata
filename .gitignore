@@ -112,3 +112,5 @@ tmp*
 jars/
 /.project
 /.pydevproject
+
+*.aux.xml
