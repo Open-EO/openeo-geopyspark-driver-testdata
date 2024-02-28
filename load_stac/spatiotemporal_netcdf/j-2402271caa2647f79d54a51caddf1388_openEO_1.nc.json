@@ -1,0 +1,272 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "j-2402271caa2647f79d54a51caddf1388_openEO_1.nc",
+  "properties": {
+    "datetime": null,
+    "end_datetime": "2022-03-03T00:00:00Z",
+    "start_datetime": "2020-08-30T00:00:00Z"
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          27.137567675264474,
+          57.342570027738624
+        ],
+        [
+          27.137567675264474,
+          57.34842122110555
+        ],
+        [
+          27.148390578797073,
+          57.34842122110555
+        ],
+        [
+          27.148390578797073,
+          57.342570027738624
+        ],
+        [
+          27.137567675264474,
+          57.342570027738624
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "openEO_1.nc": {
+      "href": "./S2_2021_LV_LPIS_POLY_110-12525751_32635_2020-08-30_2022-03-03.nc",
+      "type": "application/x-netcdf",
+      "title": "openEO_1.nc",
+      "eo:bands": [
+        {
+          "center_wavelength": 0.4427,
+          "name": "S2-B01"
+        },
+        {
+          "center_wavelength": 0.4924,
+          "name": "S2-B02"
+        },
+        {
+          "center_wavelength": 0.5598,
+          "name": "S2-B03"
+        },
+        {
+          "center_wavelength": 0.6646,
+          "name": "S2-B04"
+        },
+        {
+          "center_wavelength": 0.7041,
+          "name": "S2-B05"
+        },
+        {
+          "center_wavelength": 0.7405,
+          "name": "S2-B06"
+        },
+        {
+          "center_wavelength": 0.7828,
+          "name": "S2-B07"
+        },
+        {
+          "center_wavelength": 0.8328,
+          "name": "S2-B08"
+        },
+        {
+          "center_wavelength": 0.8647,
+          "name": "S2-B8A"
+        },
+        {
+          "center_wavelength": 0.9451,
+          "name": "S2-B09"
+        },
+        {
+          "center_wavelength": 1.6137,
+          "name": "S2-B11"
+        },
+        {
+          "center_wavelength": 2.2024,
+          "name": "S2-B12"
+        },
+        {
+          "name": "S2-SCL"
+        }
+      ],
+      "proj:bbox": [
+        508280.0,
+        6355530.0,
+        508930.0,
+        6356180.0
+      ],
+      "proj:epsg": 32635,
+      "proj:shape": [
+        65,
+        65
+      ],
+      "raster:bands": [
+        {
+          "name": "S2-B01",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8082.5564497041,
+            "minimum": 0.0,
+            "stddev": 10696.82667948,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B02",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8288.2641420118,
+            "minimum": 0.0,
+            "stddev": 10835.724674872,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B03",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8233.7292307692,
+            "minimum": 0.0,
+            "stddev": 10799.343391395,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B04",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8266.3036686391,
+            "minimum": 0.0,
+            "stddev": 10776.343021247,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B05",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8443.4426035503,
+            "minimum": 215.0,
+            "stddev": 10711.485266083,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B06",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8315.380591716,
+            "minimum": 732.0,
+            "stddev": 10606.932740898,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B07",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 7959.5358579882,
+            "minimum": 799.0,
+            "stddev": 10568.915430643,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B08",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 8094.5031952663,
+            "minimum": 609.0,
+            "stddev": 10540.57296304,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B8A",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 7585.3095857988,
+            "minimum": 821.0,
+            "stddev": 10548.721025289,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B09",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 7710.1815384615,
+            "minimum": 1533.0,
+            "stddev": 10502.651089065,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B11",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 2355.8942011834,
+            "minimum": 92.0,
+            "stddev": 11215.260680667,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-B12",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 2275.9514792899,
+            "minimum": 91.0,
+            "stddev": 11227.367174236,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-SCL",
+          "statistics": {
+            "maximum": 65535.0,
+            "mean": 2011.3294674556,
+            "minimum": 4.0,
+            "stddev": 11273.284533137,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    27.137567675264474,
+    57.342570027738624,
+    27.148390578797073,
+    57.34842122110555
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "collection": "L1-CACHE",
+  "epsg": 4037
+}
