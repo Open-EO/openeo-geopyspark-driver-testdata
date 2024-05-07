@@ -1,0 +1,36 @@
+{
+  "process_graph": {
+    "loadcollection1": {
+      "arguments": {
+        "bands": [
+          "NDVI"
+        ],
+        "id": "PROBAV_L3_S10_TOC_333M",
+        "spatial_extent": {
+          "east": 4,
+          "north": 53,
+          "south": 51,
+          "west": 2
+        },
+        "temporal_extent": [
+          "2017-11-21",
+          "2017-11-21"
+        ]
+      },
+      "process_id": "load_collection"
+    },
+    "saveresult1": {
+      "arguments": {
+        "data": {
+          "from_node": "loadcollection1"
+        },
+        "format": "GTIFF",
+        "options": {
+          "tile_grid": "one_degree"
+        }
+      },
+      "process_id": "save_result",
+      "result": true
+    }
+  }
+}

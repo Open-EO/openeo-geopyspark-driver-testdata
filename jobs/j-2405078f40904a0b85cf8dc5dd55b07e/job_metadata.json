@@ -1,0 +1,245 @@
+{
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.0,
+          51.0
+        ],
+        [
+          2.0,
+          53.0
+        ],
+        [
+          4.0,
+          53.0
+        ],
+        [
+          4.0,
+          51.0
+        ],
+        [
+          2.0,
+          51.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2,
+    51,
+    4,
+    53
+  ],
+  "area": {
+    "value": 30562197103.726196,
+    "unit": "square meter"
+  },
+  "start_datetime": "2017-11-21T00:00:00Z",
+  "end_datetime": "2017-11-21T00:00:00Z",
+  "links": [
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    },
+    {
+      "href": "urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "rel": "derived_from",
+      "title": "Derived from urn:eop:VITO:PROBAV_S10_TOC_333M_COG_V2:PROBAV_S10_TOC_X18Y02_20171121_333M_V201",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "openEO_2017-11-21Z_N51E003.tif": {
+      "href": "/data/projects/OpenEO/j-2405078f40904a0b85cf8dc5dd55b07e/openEO_2017-11-21Z_N51E003.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "bands": [
+        {
+          "name": "NDVI",
+          "common_name": null,
+          "wavelength_um": null,
+          "aliases": null,
+          "gsd": null
+        }
+      ],
+      "nodata": 255,
+      "datetime": "2017-11-21T00:00:00Z",
+      "bbox": [
+        3.0,
+        51.0,
+        4.0,
+        52.0
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.0,
+              51.0
+            ],
+            [
+              3.0,
+              52.0
+            ],
+            [
+              4.0,
+              52.0
+            ],
+            [
+              4.0,
+              51.0
+            ],
+            [
+              3.0,
+              51.0
+            ]
+          ]
+        ]
+      },
+      "proj:shape": [
+        728,
+        364
+      ],
+      "proj:epsg": 4326,
+      "proj:bbox": [
+        2.9992625,
+        51.0012761,
+        3.9990183,
+        52.0010318
+      ],
+      "raster:bands": [
+        {
+          "name": "1",
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 235.0,
+            "mean": 73.684465835593,
+            "stddev": 77.997131093531,
+            "valid_percent": 99.65
+          }
+        }
+      ]
+    }
+  },
+  "epsg": 4326,
+  "instruments": [
+    "PROBA-V"
+  ],
+  "processing:facility": "VITO - SPARK",
+  "processing:software": "openeo-geotrellis-0.33.1a1",
+  "unique_process_ids": [
+    "load_collection",
+    "save_result"
+  ],
+  "providers": [
+    {
+      "name": "VITO",
+      "description": "This data was processed on an openEO backend maintained by VITO.",
+      "roles": [
+        "processor"
+      ],
+      "processing:facility": "openEO Geotrellis backend",
+      "processing:software": {
+        "Geotrellis backend": "0.33.1a1"
+      },
+      "processing:expression": {
+        "format": "openeo",
+        "expression": {
+          "loadcollection1": {
+            "arguments": {
+              "bands": [
+                "NDVI"
+              ],
+              "id": "PROBAV_L3_S10_TOC_333M",
+              "spatial_extent": {
+                "east": 4,
+                "north": 53,
+                "south": 51,
+                "west": 2
+              },
+              "temporal_extent": [
+                "2017-11-21",
+                "2017-11-21"
+              ]
+            },
+            "process_id": "load_collection"
+          },
+          "saveresult1": {
+            "arguments": {
+              "data": {
+                "from_node": "loadcollection1"
+              },
+              "format": "GTIFF",
+              "options": {
+                "tile_grid": "one_degree"
+              }
+            },
+            "process_id": "save_result",
+            "result": true
+          }
+        }
+      }
+    }
+  ],
+  "usage": {
+    "input_pixel": {
+      "value": 1.5,
+      "unit": "mega-pixel"
+    }
+  }
+}
