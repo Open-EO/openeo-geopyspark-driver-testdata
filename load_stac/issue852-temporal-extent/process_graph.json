@@ -1,0 +1,69 @@
+{
+  "process_graph": {
+    "loadstac1": {
+      "process_id": "load_stac",
+      "arguments": {
+        "url": "$PLACEHOLDER"
+      }
+    },
+    "loadstac2": {
+      "process_id": "load_stac",
+      "arguments": {
+        "url": "$PLACEHOLDER"
+      }
+    },
+    "mergecubes1": {
+      "process_id": "merge_cubes",
+      "arguments": {
+        "cube1": {
+          "from_node": "loadstac1"
+        },
+        "cube2": {
+          "from_node": "loadstac2"
+        }
+      }
+    },
+    "loadurl1": {
+      "process_id": "load_url",
+      "arguments": {
+        "format": "Parquet",
+        "url": "$PLACEHOLDER"
+      }
+    },
+    "aggregatespatial1": {
+      "process_id": "aggregate_spatial",
+      "arguments": {
+        "data": {
+          "from_node": "mergecubes1"
+        },
+        "geometries": {
+          "from_node": "loadurl1"
+        },
+        "reducer": {
+          "process_graph": {
+            "mean1": {
+              "process_id": "mean",
+              "arguments": {
+                "data": {
+                  "from_parameter": "data"
+                }
+              },
+              "result": true
+            }
+          }
+        }
+      }
+    },
+    "saveresult1": {
+      "process_id": "save_result",
+      "arguments": {
+        "data": {
+          "from_node": "aggregatespatial1"
+        },
+        "format": "Parquet",
+        "options": {}
+      },
+      "result": true
+    }
+  }
+}

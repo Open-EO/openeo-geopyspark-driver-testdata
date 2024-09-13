@@ -1,0 +1,305 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc",
+  "properties": {
+    "datetime": null,
+    "end_datetime": "2018-05-03T00:00:00Z",
+    "proj:epsg": 32736,
+    "start_datetime": "2016-10-30T00:00:00Z"
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          34.76223718407404,
+          -0.37329523468080456
+        ],
+        [
+          34.76223718407404,
+          -0.3675065693546933
+        ],
+        [
+          34.767987219649534,
+          -0.3675065693546933
+        ],
+        [
+          34.767987219649534,
+          -0.37329523468080456
+        ],
+        [
+          34.76223718407404,
+          -0.37329523468080456
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc": {
+      "href": "./S2-L2A-10m_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217_32736_2016-10-30_2018-05-03.nc",
+      "type": "application/x-netcdf",
+      "title": "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc",
+      "eo:bands": [
+        {
+          "center_wavelength": 0.4427,
+          "name": "S2-L2A-B01"
+        },
+        {
+          "center_wavelength": 0.4924,
+          "name": "S2-L2A-B02"
+        },
+        {
+          "center_wavelength": 0.5598,
+          "name": "S2-L2A-B03"
+        },
+        {
+          "center_wavelength": 0.6646,
+          "name": "S2-L2A-B04"
+        },
+        {
+          "center_wavelength": 0.7041,
+          "name": "S2-L2A-B05"
+        },
+        {
+          "center_wavelength": 0.7405,
+          "name": "S2-L2A-B06"
+        },
+        {
+          "center_wavelength": 0.7828,
+          "name": "S2-L2A-B07"
+        },
+        {
+          "center_wavelength": 0.8328,
+          "name": "S2-L2A-B08"
+        },
+        {
+          "center_wavelength": 0.8647,
+          "name": "S2-L2A-B8A"
+        },
+        {
+          "center_wavelength": 0.9451,
+          "name": "S2-L2A-B09"
+        },
+        {
+          "center_wavelength": 1.6137,
+          "name": "S2-L2A-B11"
+        },
+        {
+          "center_wavelength": 2.2024,
+          "name": "S2-L2A-B12"
+        },
+        {
+          "name": "S2-L2A-SCL"
+        },
+        {
+          "name": "S2-L2A-SCL_DILATED_MASK"
+        },
+        {
+          "name": "S2-L2A-DISTANCE-TO-CLOUD"
+        }
+      ],
+      "proj:bbox": [
+        696120.0,
+        9958720.0,
+        696760.0,
+        9959360.0
+      ],
+      "proj:epsg": 32736,
+      "proj:shape": [
+        64,
+        64
+      ],
+      "raster:bands": [
+        {
+          "name": "S2-L2A-B01",
+          "statistics": {
+            "maximum": 3085.0,
+            "mean": 2758.9228515625,
+            "minimum": 2218.0,
+            "stddev": 203.17243894425,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B02",
+          "statistics": {
+            "maximum": 3180.0,
+            "mean": 2603.3916015625,
+            "minimum": 1414.0,
+            "stddev": 268.10513287368,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B03",
+          "statistics": {
+            "maximum": 3128.0,
+            "mean": 2662.2783203125,
+            "minimum": 1602.0,
+            "stddev": 228.57703646758,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B04",
+          "statistics": {
+            "maximum": 2954.0,
+            "mean": 2489.9780273438,
+            "minimum": 1412.0,
+            "stddev": 218.76963417603,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B05",
+          "statistics": {
+            "maximum": 3542.0,
+            "mean": 3108.94140625,
+            "minimum": 2186.0,
+            "stddev": 218.27287807043,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B06",
+          "statistics": {
+            "maximum": 4269.0,
+            "mean": 3971.6220703125,
+            "minimum": 3310.0,
+            "stddev": 155.33701624038,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B07",
+          "statistics": {
+            "maximum": 4540.0,
+            "mean": 4274.4638671875,
+            "minimum": 3711.0,
+            "stddev": 131.40294163153,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B08",
+          "statistics": {
+            "maximum": 4448.0,
+            "mean": 4121.1630859375,
+            "minimum": 3444.0,
+            "stddev": 151.66135553381,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B8A",
+          "statistics": {
+            "maximum": 4565.0,
+            "mean": 4301.8310546875,
+            "minimum": 3755.0,
+            "stddev": 120.37945284981,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B09",
+          "statistics": {
+            "maximum": 10158.0,
+            "mean": 9232.84375,
+            "minimum": 7631.0,
+            "stddev": 562.55231267162,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B11",
+          "statistics": {
+            "maximum": 3372.0,
+            "mean": 3092.763671875,
+            "minimum": 2510.0,
+            "stddev": 145.73041654119,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-B12",
+          "statistics": {
+            "maximum": 2967.0,
+            "mean": 2662.515625,
+            "minimum": 1940.0,
+            "stddev": 169.66122537717,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-SCL",
+          "statistics": {
+            "maximum": 9.0,
+            "mean": 8.458984375,
+            "minimum": 8.0,
+            "stddev": 0.49831487887265,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-SCL_DILATED_MASK",
+          "statistics": {
+            "maximum": 1.0,
+            "mean": 1.0,
+            "minimum": 1.0,
+            "stddev": 0.0,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S2-L2A-DISTANCE-TO-CLOUD",
+          "statistics": {
+            "maximum": 0.0,
+            "mean": 0.0,
+            "minimum": 0.0,
+            "stddev": 0.0,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.76223718407404,
+    -0.37329523468080456,
+    34.767987219649534,
+    -0.3675065693546933
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "sentinel2-EXTRACTION_32736",
+  "epsg": 32736
+}

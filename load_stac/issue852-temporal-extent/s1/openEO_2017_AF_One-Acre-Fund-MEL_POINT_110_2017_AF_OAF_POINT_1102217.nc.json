@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc",
+  "properties": {
+    "datetime": null,
+    "end_datetime": "2018-05-03T00:00:00Z",
+    "proj:epsg": 32736,
+    "start_datetime": "2016-10-30T00:00:00Z"
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          34.76223718407404,
+          -0.37329523468080456
+        ],
+        [
+          34.76223718407404,
+          -0.3675065693546933
+        ],
+        [
+          34.767987219649534,
+          -0.3675065693546933
+        ],
+        [
+          34.767987219649534,
+          -0.37329523468080456
+        ],
+        [
+          34.76223718407404,
+          -0.37329523468080456
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc": {
+      "href": "./S1-SIGMA0-10m_DESCENDING_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217_32736_2016-10-30_2018-05-03.nc",
+      "type": "application/x-netcdf",
+      "title": "openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc",
+      "eo:bands": [
+        {
+          "name": "S1-SIGMA0-VV"
+        },
+        {
+          "name": "S1-SIGMA0-VH"
+        }
+      ],
+      "proj:bbox": [
+        696120.0,
+        9958720.0,
+        696760.0,
+        9959360.0
+      ],
+      "proj:epsg": 32736,
+      "proj:shape": [
+        32,
+        32
+      ],
+      "raster:bands": [
+        {
+          "name": "S1-SIGMA0-VV",
+          "statistics": {
+            "maximum": 11783.0,
+            "mean": 5242.5771484375,
+            "minimum": 1880.0,
+            "stddev": 1381.4525529882,
+            "valid_percent": 100.0
+          }
+        },
+        {
+          "name": "S1-SIGMA0-VH",
+          "statistics": {
+            "maximum": 5068.0,
+            "mean": 2611.5185546875,
+            "minimum": 1077.0,
+            "stddev": 700.89061900697,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    34.76223718407404,
+    -0.37329523468080456,
+    34.767987219649534,
+    -0.3675065693546933
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "SENTINEL1-EXTRACTION_32736",
+  "epsg": 32736
+}

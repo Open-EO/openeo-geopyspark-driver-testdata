@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "SENTINEL1-EXTRACTION_32736",
+  "stac_version": "1.0.0",
+  "description": "Sentinel1 GRD data extraction. Containing only items with EPSG code 32736",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://spdx.org/licenses/CC-BY-4.0.html",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International License"
+    },
+    {
+      "rel": "item",
+      "href": "./openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+  ],
+  "item_assets": {
+    "sentinel1": {
+      "gsd": 20,
+      "title": "Sentinel1",
+      "description": "Sentinel-1 bands",
+      "type": "application/x-netcdf",
+      "roles": [
+        "data"
+      ],
+      "proj:shape": [
+        32,
+        32
+      ],
+      "raster:bands": [
+        {
+          "name": "S1-SIGMA0-VV"
+        },
+        {
+          "name": "S1-SIGMA0-VH"
+        }
+      ],
+      "cube:variables": {
+        "S1-SIGMA0-VV": {
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "type": "data"
+        },
+        "S1-SIGMA0-VH": {
+          "dimensions": [
+            "time",
+            "y",
+            "x"
+          ],
+          "type": "data"
+        }
+      },
+      "eo:bands": [
+        {
+          "name": "S1-SIGMA0-VV",
+          "common_name": "VV"
+        },
+        {
+          "name": "S1-SIGMA0-VH",
+          "common_name": "VH"
+        }
+      ]
+    }
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34.453280157301236,
+          -0.9129803702473933,
+          34.79927082672805,
+          -0.34258247602812575
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-30T00:00:00Z",
+          "2018-05-03T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "constellation": [
+      "sentinel-1"
+    ],
+    "platform": [
+      "sentinel-1a",
+      "sentinel-1b"
+    ],
+    "instruments": [
+      "c-sar"
+    ],
+    "gsd": [
+      10
+    ]
+  }
+}
