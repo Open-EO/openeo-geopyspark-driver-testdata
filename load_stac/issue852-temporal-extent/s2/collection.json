@@ -6,17 +6,17 @@
   "links": [
     {
       "rel": "root",
-      "href": "/data/users/Public/vincent.verelst/world_cereal/s1_s2_meteo_extraction/Sentinel2/small-split-stac/collection-32736/collection.json",
+      "href": "./collection.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "/data/users/Public/vincent.verelst/world_cereal/s1_s2_meteo_extraction/Sentinel2/small-split-stac/collection-32736/openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc/openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc.json",
+      "href": "./openEO_2017_AF_One-Acre-Fund-MEL_POINT_110_2017_AF_OAF_POINT_1102217.nc.json",
       "type": "application/json"
     },
     {
       "rel": "self",
-      "href": "/data/users/Public/vincent.verelst/world_cereal/s1_s2_meteo_extraction/Sentinel2/small-split-stac/collection-32736/collection.json",
+      "href": "./collection.json",
       "type": "application/json"
     }
   ],
