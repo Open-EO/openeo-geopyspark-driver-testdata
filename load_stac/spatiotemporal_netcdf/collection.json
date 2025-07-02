@@ -143,20 +143,20 @@
     },
     "spectral": {
       "values": [
-        "SCL",
-        "B01",
-        "B02",
-        "B03",
-        "B04",
-        "B05",
-        "B06",
-        "B07",
-        "B08",
-        "B8A",
-        "B09",
-        "B10",
-        "B11",
-        "B12",
+        "S2-SCL",
+        "S2-B01",
+        "S2-B02",
+        "S2-B03",
+        "S2-B04",
+        "S2-B05",
+        "S2-B06",
+        "S2-B07",
+        "S2-B08",
+        "S2-B8A",
+        "S2-B09",
+        "S2-B10",
+        "S2-B11",
+        "S2-B12",
         "CROPTYPE"
       ]
     }
@@ -176,14 +176,14 @@
       ],
       "raster:bands": [
         {
-          "name": "B01"
+          "name": "S2-B01"
         },
         {
-          "name": "B02"
+          "name": "S2-B02"
         }
       ],
       "cube:variables": {
-        "B01": {
+        "S2-B01": {
           "dimensions": [
             "time",
             "y",
@@ -191,7 +191,7 @@
           ],
           "type": "data"
         },
-        "B02": {
+        "S2-B02": {
           "dimensions": [
             "time",
             "y",
@@ -199,7 +199,7 @@
           ],
           "type": "data"
         },
-        "B03": {
+        "S2-B03": {
           "dimensions": [
             "time",
             "y",
@@ -207,7 +207,7 @@
           ],
           "type": "data"
         },
-        "B04": {
+        "S2-B04": {
           "dimensions": [
             "time",
             "y",
@@ -215,7 +215,7 @@
           ],
           "type": "data"
         },
-        "B05": {
+        "S2-B05": {
           "dimensions": [
             "time",
             "y",
@@ -223,7 +223,7 @@
           ],
           "type": "data"
         },
-        "B06": {
+        "S2-B06": {
           "dimensions": [
             "time",
             "y",
@@ -231,7 +231,7 @@
           ],
           "type": "data"
         },
-        "B07": {
+        "S2-B07": {
           "dimensions": [
             "time",
             "y",
@@ -239,7 +239,7 @@
           ],
           "type": "data"
         },
-        "B8A": {
+        "S2-B8A": {
           "dimensions": [
             "time",
             "y",
@@ -247,7 +247,7 @@
           ],
           "type": "data"
         },
-        "B08": {
+        "S2-B08": {
           "dimensions": [
             "time",
             "y",
@@ -255,7 +255,7 @@
           ],
           "type": "data"
         },
-        "B11": {
+        "S2-B11": {
           "dimensions": [
             "time",
             "y",
@@ -263,7 +263,7 @@
           ],
           "type": "data"
         },
-        "B12": {
+        "S2-B12": {
           "dimensions": [
             "time",
             "y",
@@ -282,67 +282,67 @@
       },
       "eo:bands": [
         {
-          "name": "B01",
+          "name": "S2-B01",
           "common_name": "coastal",
           "center_wavelength": 0.443,
           "full_width_half_max": 0.027
         },
         {
-          "name": "B02",
+          "name": "S2-B02",
           "common_name": "blue",
           "center_wavelength": 0.49,
           "full_width_half_max": 0.098
         },
         {
-          "name": "B03",
+          "name": "S2-B03",
           "common_name": "green",
           "center_wavelength": 0.56,
           "full_width_half_max": 0.045
         },
         {
-          "name": "B04",
+          "name": "S2-B04",
           "common_name": "red",
           "center_wavelength": 0.665,
           "full_width_half_max": 0.038
         },
         {
-          "name": "B05",
+          "name": "S2-B05",
           "common_name": "rededge",
           "center_wavelength": 0.704,
           "full_width_half_max": 0.019
         },
         {
-          "name": "B06",
+          "name": "S2-B06",
           "common_name": "rededge",
           "center_wavelength": 0.74,
           "full_width_half_max": 0.018
         },
         {
-          "name": "B07",
+          "name": "S2-B07",
           "common_name": "rededge",
           "center_wavelength": 0.783,
           "full_width_half_max": 0.028
         },
         {
-          "name": "B08",
+          "name": "S2-B08",
           "common_name": "nir",
           "center_wavelength": 0.842,
           "full_width_half_max": 0.145
         },
         {
-          "name": "B8A",
+          "name": "S2-B8A",
           "common_name": "nir08",
           "center_wavelength": 0.865,
           "full_width_half_max": 0.033
         },
         {
-          "name": "B11",
+          "name": "S2-B11",
           "common_name": "swir16",
           "center_wavelength": 1.61,
           "full_width_half_max": 0.143
         },
         {
-          "name": "B12",
+          "name": "S2-B12",
           "common_name": "swir22",
           "center_wavelength": 2.19,
           "full_width_half_max": 0.242

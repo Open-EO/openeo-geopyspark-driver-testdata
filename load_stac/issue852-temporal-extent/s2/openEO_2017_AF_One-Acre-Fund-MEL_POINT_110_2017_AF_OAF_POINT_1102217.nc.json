@@ -118,7 +118,7 @@
           "name": "S2-L2A-SCL_DILATED_MASK"
         },
         {
-          "name": "S2-L2A-DISTANCE-TO-CLOUD"
+          "name": "S2-L2A-DISTANCE_TO_CLOUD"
         }
       ],
       "proj:bbox": [
@@ -274,7 +274,7 @@
           }
         },
         {
-          "name": "S2-L2A-DISTANCE-TO-CLOUD",
+          "name": "S2-L2A-DISTANCE_TO_CLOUD",
           "statistics": {
             "maximum": 0.0,
             "mean": 0.0,
