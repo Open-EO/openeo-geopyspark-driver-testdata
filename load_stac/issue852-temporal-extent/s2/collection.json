@@ -81,7 +81,7 @@
           "name": "S2-L2A-SCL_DILATED_MASK"
         },
         {
-          "name": "S2-L2A-DISTANCE_TO_CLOUD"
+          "name": "S2-L2A-DISTANCE-TO-CLOUD"
         }
       ],
       "cube:variables": {
@@ -189,7 +189,7 @@
           ],
           "type": "data"
         },
-        "S2-L2A-DISTANCE_TO_CLOUD": {
+        "S2-L2A-DISTANCE-TO-CLOUD": {
           "dimensions": [
             "time",
             "y",
@@ -275,7 +275,7 @@
           "name": "S2-L2A-SCL_DILATED_MASK"
         },
         {
-          "name": "S2-L2A-DISTANCE_TO_CLOUD"
+          "name": "S2-L2A-DISTANCE-TO-CLOUD"
         }
       ]
     }
