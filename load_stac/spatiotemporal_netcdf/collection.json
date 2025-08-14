@@ -143,7 +143,6 @@
     },
     "spectral": {
       "values": [
-        "S2-SCL",
         "S2-B01",
         "S2-B02",
         "S2-B03",
@@ -157,7 +156,7 @@
         "S2-B10",
         "S2-B11",
         "S2-B12",
-        "CROPTYPE"
+        "S2-SCL"
       ]
     }
   },
@@ -271,7 +270,7 @@
           ],
           "type": "data"
         },
-        "SCL": {
+        "S2-SCL": {
           "dimensions": [
             "time",
             "y",
@@ -336,6 +335,9 @@
           "full_width_half_max": 0.033
         },
         {
+          "name": "S2-B09"
+        },
+        {
           "name": "S2-B11",
           "common_name": "swir16",
           "center_wavelength": 1.61,
@@ -346,6 +348,9 @@
           "common_name": "swir22",
           "center_wavelength": 2.19,
           "full_width_half_max": 0.242
+        },
+        {
+          "name": "S2-SCL"
         }
       ]
     },
